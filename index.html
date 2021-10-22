@@ -1,0 +1,19 @@
+<html>
+<head>
+  <title>QUESTION 12</title>
+</head>
+<body>
+<script>
+function testhundred(x) {
+  return ((Math.abs(100 - x) <= 20) ||
+	 (Math.abs(400 - x) <= 20));
+}
+
+document.write(testhundred(10) + "<br>");
+document.write(testhundred(90) + "<br>");
+document.write(testhundred(99) + "<br>");
+document.write(testhundred(199) + "<br>");
+document.write(testhundred(200));
+</script>
+</body>
+</html>
